@@ -1,7 +1,7 @@
 ## Hackathon Chiliz.
 
 <div align="center">
-    <img src="[https://cdn.discordapp.com/attachments/1235359156743962746/1236793323981766748/image.png?ex=66394d0a&is=6637fb8a&hm=bd689fa974be629f66201fdd3f4053c428fe51e79c8dad7e5bbb219591a0d2ae](https://cdn.discordapp.com/attachments/1235359156743962746/1237891322015121438/image.png?ex=663d4ba2&is=663bfa22&hm=24435224343d05b2b227e2e6fc3c9f9ae639ea5b4b44b3d323970f805dc777ae&)" alt="Fidz Logo">
+    <img src="https://cdn.discordapp.com/attachments/1235359156743962746/1237891322015121438/image.png?ex=663d4ba2&is=663bfa22&hm=24435224343d05b2b227e2e6fc3c9f9ae639ea5b4b44b3d323970f805dc777ae&" alt="Fidz Logo">
 </div>
 
 ---
