@@ -38,19 +38,19 @@ Due to lack of time, we decided to leave some mocked things on the website, but 
 <details>
 <summary>🌟 Features</summary>
 
-###🔹 Tokenization
+🔹 Tokenization
 Thanks to our decentralized currency, companies that want to be partners can make their own tokens and rewards
 
-###🔹 Transference tokens
+🔹 Transference tokens
 Our system can carry out transfers from one person to another
 
-###🔹 Trade tokens
+🔹 Trade tokens
 We have an exchange system, which is completely safe where the exchange is only carried out when both parties agree on what is in it, which can be any type of token
 
-###🔹Chiliz
+🔹Chiliz
 Focused on specializing in sports, bringing better performance to web3 and our application
 
-###🔹 Approximation
+🔹 Approximation
 Helps bring the user closer to their favorite players, also having announcements of future tokens
 </details>
 
