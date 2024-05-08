@@ -10,11 +10,11 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
-// @title Fidz
+// @title Fanify Powered by Chilliz
 // @version 0.1
 // @description API
 // @termsOfService http://swagger.io/terms/
-// @host 52.15.128.117:8080
+// @host 3.144.137.223:8080
 // @BasePath /api
 func SetupRouter() *gin.Engine {
 	r := gin.Default()

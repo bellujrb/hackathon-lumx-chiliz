@@ -5,11 +5,11 @@ import (
 	"fanify/middleware"
 )
 
-// @title           Fidz
+// @title           Fanify
 // @version         1.0
 // @description     This is a server for app.
 
-// @host      52.15.128.117:8080
+// @host      3.144.137.223:8080
 
 // @securityDefinitions.basic  BasicAuth
 

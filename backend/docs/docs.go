@@ -1126,10 +1126,10 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
-	Host:             "52.15.128.117:8080",
+	Host:             "3.144.137.223:8080",
 	BasePath:         "",
 	Schemes:          []string{},
-	Title:            "Fidz",
+	Title:            "Fanify",
 	Description:      "This is a server for app.",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
