@@ -25,7 +25,7 @@
 
 ## 🌐 Introduction
 
-?????
+With the website and api with the lumx external api, which allows using the chiliz protocol, we are able to create and maintain fan tokens, having greater interaction between teams and users. We have a secure exchange system, where if you know a user who wanted to exchange a token with another, our system validates whether they have the token, and they are valid for exchanges. We have a transaction system that guarantees 100% shipping to other users. Our engagement system makes the user even closer to the teams.
 
 ## Application Programming Interface Lumx
 
