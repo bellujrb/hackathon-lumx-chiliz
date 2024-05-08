@@ -38,21 +38,20 @@ Due to lack of time, we decided to leave some mocked things on the website, but 
 <details>
 <summary>🌟 Features</summary>
 
-### 🔹 Create fan-token
-We create tokens for players, artists or even social affairs.
+###🔹 Tokenization
+Thanks to our decentralized currency, companies that want to be partners can make their own tokens and rewards
 
-### 🔹 Manager fan-token
-We can manage the token through the dashboard.
+###🔹 Transference tokens
+Our system can carry out transfers from one person to another
 
-### 🔹 Calculator 
-We calculate the value of tokens even before our client creates them.
+###🔹 Trade tokens
+We have an exchange system, which is completely safe where the exchange is only carried out when both parties agree on what is in it, which can be any type of token
 
-### 🔹 Person Checker
-We check whether such a person really is the person through contracts or social networks.
+###🔹Chiliz
+Focused on specializing in sports, bringing better performance to web3 and our application
 
-### 🔹 Transfer Token
-We can transfer the token easily with our API.
-
+###🔹 Approximation
+Helps bring the user closer to their favorite players, also having announcements of future tokens
 </details>
 
 ---
