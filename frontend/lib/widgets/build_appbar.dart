@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:frontend/utils/styles/colors.dart';
 import 'package:frontend/utils/styles/text_styles.dart';
 
@@ -78,28 +79,38 @@ class _BuildAppBarState extends State<BuildAppBar> {
         ),
         Padding(
           padding: const EdgeInsets.only(top: 20, bottom: 20, right: 10),
-          child: Container(
-            alignment: Alignment.center,
-            height: 24,
-            width: 80,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(6),
-              color: AppColors.onTertiary,
+          child: InkWell(
+            onTap: () {
+              Modular.to.navigate("login");
+            },
+            child: Container(
+              alignment: Alignment.center,
+              height: 24,
+              width: 80,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(6),
+                color: AppColors.onTertiary,
+              ),
+              child: const Text('Login'),
             ),
-            child: const Text('Login'),
           ),
         ),
         Padding(
           padding: const EdgeInsets.only(top: 20, bottom: 20, right: 10),
-          child: Container(
-            alignment: Alignment.center,
-            height: 24,
-            width: 160,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(6),
-              color: AppColors.tertiary,
+          child: InkWell(
+            onTap: () {
+              Modular.to.navigate("token");
+            },
+            child: Container(
+              alignment: Alignment.center,
+              height: 24,
+              width: 160,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(6),
+                color: AppColors.tertiary,
+              ),
+              child: const Text('Create your Fan Token'),
             ),
-            child: const Text('Create your Fan Token'),
           ),
         ),
       ],

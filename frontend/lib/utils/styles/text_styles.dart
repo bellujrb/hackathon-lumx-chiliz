@@ -23,6 +23,11 @@ class AppTextStyles {
       fontSize: 64,
       fontWeight: FontWeight.bold,
       decoration: TextDecoration.none);
+  TextStyle get smallWhite70 => TextStyle(
+      color: AppColors.backgroundWhite,
+      fontSize: 16,
+      fontWeight: FontWeight.normal,
+      decoration: TextDecoration.none);
   TextStyle get smallBlack => TextStyle(
       color: AppColors.tertiary,
       fontFamily: 'Satoshi',
@@ -59,9 +64,13 @@ class AppTextStyles {
       decoration: TextDecoration.none);
   TextStyle get smallWhite => TextStyle(
       color: AppColors.secondary,
-      fontFamily: 'Satoshi',
       fontSize: 16,
       fontWeight: FontWeight.normal,
+      decoration: TextDecoration.none);
+  TextStyle get bigWhite => TextStyle(
+      color: AppColors.secondary,
+      fontSize: 48,
+      fontWeight: FontWeight.bold,
       decoration: TextDecoration.none);
 }
 
