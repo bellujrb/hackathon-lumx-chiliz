@@ -117,21 +117,21 @@ class _HomePageState extends State<HomePage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         BenefitCard(
-                            title: "Beneficio 1",
+                            title: "Makes the passion of your fans official",
                             description:
-                                "Show examples cases: Success, show application and others"),
+                                "By providing a Fan Token your relashionship with your most loyal fans is official and can always be verified."),
                         SizedBox(
                           width: 25,
                         ),
                         BenefitCard(
-                            title: "Beneficio 1",
+                            title: "Access to exclusive perks and benefits",
                             description:
-                                "Show examples cases: Success, show application and others"),
+                                "Through Fan Token authentication, you can provide exclusive benefits and experiences to fans and give more value to your token."),
                         SizedBox(
                           width: 25,
                         ),
                         BenefitCard(
-                            title: "Beneficio 1",
+                            title: "Super safe and super easy to use",
                             description:
                                 "Show examples cases: Success, show application and others"),
                       ],
@@ -144,6 +144,9 @@ class _HomePageState extends State<HomePage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    const SizedBox(
+                      height: 10,
+                    ),
                     Text(
                       "Use Cases",
                       style: context.appTextStyles.superSmallBlack50,

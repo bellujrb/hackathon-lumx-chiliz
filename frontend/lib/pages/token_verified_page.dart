@@ -4,14 +4,12 @@ import 'package:frontend/utils/extensions/build_context_utils.dart';
 import 'package:frontend/utils/styles/colors.dart';
 import 'package:frontend/utils/styles/text_styles.dart';
 
-class TokenPage extends StatelessWidget {
-  const TokenPage({super.key});
+class TokenVerifiedPage extends StatelessWidget {
+  const TokenVerifiedPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final TextEditingController nameController = TextEditingController();
-    final TextEditingController symbolController = TextEditingController();
-    final TextEditingController descriptionController = TextEditingController();
+    final TextEditingController socialController = TextEditingController();
 
     if (context.mediaWidth > 1250) {
       return Scaffold(
@@ -43,28 +41,14 @@ class TokenPage extends StatelessWidget {
                       height: 20,
                     ),
                     Text(
-                      "Welcome to Fanify",
+                      "Get your token verified",
                       style: context.appTextStyles.miniBigBlack,
                     ),
                     const SizedBox(
                       height: 20,
                     ),
                     Text(
-                      "It doesn’t matter if you are a Sport Team, a Musician or anything else, your passionate\nfans are waiting to have an exclusive Token that gives them access to awesome perks!",
-                      style: context.appTextStyles.smallBlack50,
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Text(
-                      "Basic Fan Token information",
-                      style: context.appTextStyles.smallBlack,
-                    ),
-                    const SizedBox(
-                      height: 10,
-                    ),
-                    Text(
-                      "This is basic information to get yout customized Fan Token ready and running",
+                      "Verify your identity and make your Fan Token trustworthy for your audience. You’ll need to provide enough documentation that you are legaly related to the artist or sport team que token will represent.",
                       style: context.appTextStyles.smallBlack50,
                     ),
                     const SizedBox(
@@ -73,126 +57,70 @@ class TokenPage extends StatelessWidget {
                     SizedBox(
                       height: 88,
                       width: 624,
-                      child: Image.asset("assets/img/mock_img.png"),
+                      child: Image.asset("assets/img/mock_img2.png"),
                     ),
                     const SizedBox(
                       height: 20,
                     ),
-                    Container(
-                      height: 64,
-                      width: 400,
-                      decoration: const BoxDecoration(
-                        color: Colors.transparent,
-                      ),
-                      child: TextField(
-                        controller: nameController,
-                        decoration: InputDecoration(
-                            label: Row(
-                              children: [
-                                Text(
-                                  "Token name",
-                                  style: context.appTextStyles.smallBlack,
-                                ),
-                                const SizedBox(
-                                  width: 10,
-                                ),
-                                Icon(
-                                  Icons.info,
-                                  color: AppColors.tertiary,
-                                )
-                              ],
-                            ),
-                            filled: true,
-                            border: OutlineInputBorder(
-                                borderSide: BorderSide(
-                                    color: AppColors.backgroundWhite, width: 2)),
-                            hintText: 'How would you like to call your Token?',
-                            hintStyle: const TextStyle(color: Colors.grey),
-                            labelStyle: context.appTextStyles.bigBlack),
-                        keyboardType: TextInputType.number,
-                      ),
+                    SizedBox(
+                      height: 88,
+                      width: 624,
+                      child: Image.asset("assets/img/mock_img3.png"),
                     ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Container(
-                      height: 64,
-                      width: 400,
-                      decoration: const BoxDecoration(
-                        color: Colors.transparent,
-                      ),
-                      child: TextField(
-                        controller: symbolController,
-                        decoration: InputDecoration(
-                            label: Row(
-                              children: [
-                                Text(
-                                  "Token Symbol",
-                                  style: context.appTextStyles.smallBlack,
-                                ),
-                                const SizedBox(
-                                  width: 10,
-                                ),
-                                Icon(
-                                  Icons.info,
-                                  color: AppColors.tertiary,
-                                )
-                              ],
-                            ),
-                            filled: true,
-                            border: OutlineInputBorder(
-                                borderSide: BorderSide(
-                                    color: AppColors.backgroundWhite, width: 2)),
-                            hintText: 'What will it be the symbol of your Token?',
-                            hintStyle: const TextStyle(color: Colors.grey),
-                            labelStyle: context.appTextStyles.bigBlack),
-                        keyboardType: TextInputType.number,
-                      ),
-                    ),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Container(
-                      height: 64,
-                      width: 400,
-                      decoration: const BoxDecoration(
-                        color: Colors.transparent,
-                      ),
-                      child: TextField(
-                        controller: descriptionController,
-                        decoration: InputDecoration(
-                            label: Row(
-                              children: [
-                                Text(
-                                  "Description",
-                                  style: context.appTextStyles.smallBlack,
-                                ),
-                                const SizedBox(
-                                  width: 10,
-                                ),
-                                Icon(
-                                  Icons.info,
-                                  color: AppColors.tertiary,
-                                )
-                              ],
-                            ),
-                            filled: true,
-                            border: OutlineInputBorder(
-                                borderSide: BorderSide(
-                                    color: AppColors.backgroundWhite, width: 2)),
-                            hintText:
-                                'Describe your Token and the benefits your fans will get from holding it?',
-                            hintStyle: const TextStyle(color: Colors.grey),
-                            labelStyle: context.appTextStyles.bigBlack),
-                        keyboardType: TextInputType.number,
-                      ),
+                    Text(
+                      "Social Media",
+                      style: context.appTextStyles.smallBlack,
                     ),
                     const SizedBox(
                       height: 10,
                     ),
+                    Text(
+                      "Add official social media links to your token.",
+                      style: context.appTextStyles.smallBlack50,
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Container(
+                      height: 64,
+                      width: 400,
+                      decoration: const BoxDecoration(
+                        color: Colors.transparent,
+                      ),
+                      child: TextField(
+                        controller: socialController,
+                        decoration: InputDecoration(
+                            label: Row(
+                              children: [
+                                Text(
+                                  "Social Link",
+                                  style: context.appTextStyles.smallBlack,
+                                ),
+                                const SizedBox(
+                                  width: 10,
+                                ),
+                                Icon(
+                                  Icons.info,
+                                  color: AppColors.tertiary,
+                                )
+                              ],
+                            ),
+                            filled: true,
+                            border: OutlineInputBorder(
+                                borderSide: BorderSide(
+                                    color: AppColors.backgroundWhite, width: 2)),
+                            hintText: 'Example: instagram.com/lumx',
+                            hintStyle: const TextStyle(color: Colors.grey),
+                            labelStyle: context.appTextStyles.bigBlack),
+                        keyboardType: TextInputType.number,
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
                     InkWell(
                       onTap: () {
-                        Modular.to.navigate("tokenverify");
+                        Modular.to.navigate("pre-sale");
                       },
                       child: Container(
                         alignment: Alignment.center,
