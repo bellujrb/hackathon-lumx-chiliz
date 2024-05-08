@@ -9,7 +9,7 @@ class LoginPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final TextEditingController _emailController = TextEditingController();
+    final TextEditingController emailController = TextEditingController();
 
     if (context.mediaWidth > 1250) {
       return Scaffold(
@@ -60,7 +60,7 @@ class LoginPage extends StatelessWidget {
                       color: Colors.transparent,
                     ),
                     child: TextField(
-                      controller: _emailController,
+                      controller: emailController,
                       decoration: InputDecoration(
                           label: Row(
                             children: [

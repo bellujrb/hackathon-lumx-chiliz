@@ -80,7 +80,7 @@ class _TokenCalculatorPageState extends State<TokenCalculatorPage> {
                           label: Row(
                             children: [
                               Text(
-                                "Token Offer",
+                                "Initial token offen",
                                 style: context.appTextStyles.smallWhite,
                               ),
                               const SizedBox(
@@ -115,7 +115,7 @@ class _TokenCalculatorPageState extends State<TokenCalculatorPage> {
                           label: Row(
                             children: [
                               Text(
-                                "Token Offer",
+                                "Initial token value",
                                 style: context.appTextStyles.smallWhite,
                               ),
                               const SizedBox(
@@ -184,11 +184,11 @@ class _TokenCalculatorPageState extends State<TokenCalculatorPage> {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: Text('Revenue Preview'),
+          title: const Text('Revenue Preview'),
           content: Text('Total Revenue: \$${revenue.toStringAsFixed(2)}'),
           actions: <Widget>[
             TextButton(
-              child: Text('OK'),
+              child: const Text('OK'),
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -200,11 +200,11 @@ class _TokenCalculatorPageState extends State<TokenCalculatorPage> {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: Text('Error'),
-          content: Text('Please fill in both fields to calculate the revenue.'),
+          title: const Text('Error'),
+          content: const Text('Please fill in both fields to calculate the revenue.'),
           actions: <Widget>[
             TextButton(
-              child: Text('OK'),
+              child: const Text('OK'),
               onPressed: () {
                 Navigator.of(context).pop();
               },
