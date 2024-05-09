@@ -172,8 +172,4 @@ Special thanks to Lumx and Chiliz for this ambitious opportunity.
 
 ## 🖥 WebSite
 
-<div align="center">
-    <img src="https://cdn.discordapp.com/attachments/1235359156743962746/1237938432114692096/Fanify_Experience.gif?ex=663d7782&is=663c2602&hm=f1af48870a4bd8fd4308ae0382c7109391770171494e7547f7919186c7332664&" alt="Fidz Logo">
-</div>
-
----
+<img align="center" height="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2NsajAyZTB2bWg5MGNtYTIwc2pjYnpnbXlpbzd1dmk0MTc0Mm56byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VJ9wzKhnhHVmNhnz0s/giphy.gif"  />
